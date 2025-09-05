@@ -1,0 +1,39 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #0b2447;
+}
+
+.bg-theme {
+  background-color: #0b2447;
+}
+
+.bg-accent {
+  background-color: #ff6b00;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.zoom-img {
+  animation: zoomEffect 10s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
